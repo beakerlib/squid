@@ -1,0 +1,12 @@
+summary: Library for squid testing
+contact:
+- Martin Kyral <mkyral@redhat.com>
+component:
+- squid
+test: ./runtest.sh
+require:
+- squid
+- lsof
+recommend:
+- httpd
+duration: 5m
